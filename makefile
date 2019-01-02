@@ -18,4 +18,4 @@ select_test: select_test.cpp redisdb.cpp redisdb.h
         g++ -c ${CFLAGS}  ${INCLUDES} select_test.cpp
         g++ redisdb.o select_test.o -o select_test ${LIB_PATH} -ldl -lm -lrt -lhiredis -lkxcomn 
 clean: 
-        rm -rf *.o insert_test select_tes
+        rm -rf *.o insert_test select_test
