@@ -1,4 +1,5 @@
 # redisdb C++ class
+C++ wrapping class for convenient use of  redis
 
 메모리 DB인 redis db를 사용하기 위한  C 언어 library 인   hiredis  library를  좀더 쉽게 사용할 수 있도록 C++ class 로 wrapping 하였다.
 
